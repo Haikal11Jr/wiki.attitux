@@ -2,11 +2,11 @@ port: 3000
 
 db:
   type: postgres
-  host: ${DB_HOST}
+  host: postgres.railway.internal
   port: 5432
-  user: ${DB_USER}
-  pass: ${DB_PASS}
-  db: ${DB_NAME}
+  user: postgres
+  pass: xFqeVduUNgCPbSBqfwWHcJBCkNeqnnm
+  db: railway
   ssl: false
 
 bindIP: 0.0.0.0
